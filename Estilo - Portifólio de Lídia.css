@@ -1,0 +1,23 @@
+p{ /*seletor*/
+    color:rgb(59, 144, 255) /*color -> propriedade, cor -> valor*/
+}
+h1{
+    color:rgb(27, 43, 196)
+}
+h2{
+    color:rgb(27, 43, 196)
+}
+footer{
+    color: rgba(22, 30, 145, 0.493)
+}
+
+/*Seletor de Classe -> classes permitem aplicar estilo a grupos de elementos/*
+/*
+#HTML
+<p class="destaque">texto</p>
+
+#CSS
+.destaque{
+    color:read;
+    }
+*/
