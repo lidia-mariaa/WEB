@@ -10,6 +10,44 @@ h2{
 footer{
     color: rgba(22, 30, 145, 0.493)
 }
+body{
+    background-color: rgb(200, 224, 255);
+}
+
+/*Fontes*/
+.fonte-texto {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+}
+
+.fonte-h1 {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.fonte-links {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+  text-align: center;
+}
+
+
+div{
+    padding: 2px;
+    background-color: rgb(22, 30, 145);
+    margin: 8px
+}
 
 /*Seletor de Classe -> classes permitem aplicar estilo a grupos de elementos/*
 /*
