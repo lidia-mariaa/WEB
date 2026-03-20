@@ -6,7 +6,7 @@
         <title> Portifólio - Lídia</title>
 
         <!--Fontes-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- rel ->  define a relação entre a página atual e um arquivo ou recurso externo vinculado, sendo crucial para estilo, SEO, desempenho e acessibilidade. Ele é usado principalmente nas tags <link> e <a> para indicar se o arquivo é uma folha de estilo, um ícone, uma página anterior/próxima ou um link externo seguro. -->
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
     </head>
@@ -29,7 +29,7 @@
             <!-- Usando CSS com o style=
             <h1 style= "color:rgb(27, 43, 196);">Lidia Maria Lucas Lopes</h1>
             -->
-            <div>
+            <div class="div-1">
                 <h1 class ="fonte-h1">Lídia Maria Lucas Lopes</h1>
             </div>
         </header>
@@ -44,21 +44,24 @@
         </nav>
 
         <!--Parte principal do site-->
-        <main>
+        <main class = "div-2">
             <section> <!--Seção de Dados Pessoais-->
                 <h2>Dados Pessoais</h2>
                 <p><strong>Contato:</strong> lidia.maria.lucas.lopes@gmail.com<br><strong>Nome:</strong> Lídia Maria Lucas Lopes<br></p>
             </section>
         </main>
 
-        <article> <!--Conteúdo independente -> depois trocar por um section-->
+        <section> <!--Conteúdo independente -> depois trocar por um section-->
             <h2>Formações</h2>
             <p>Concluindo o Ensino Médio Técnico em Informática - IFPB</p>
-        </article>
-        <article>
+        </section>
+        
+        <section>
             <h2>TCC</h2>
             <p>Em andamento</p>
-        </article>
+            <img class = "gif-gato" src="gato.gif" alt="Gif de Gato">
+        </section>
+        
         <footer><strong>Autor da Página:</strong> Lídia Maria Lucas Lopes<br><small>Sob auxílio do professor José Neto</small></footer>
     </body>
 </html>
