@@ -42,12 +42,26 @@ body{
   text-align: center;
 }
 
-
-div{
+.div-1{
     padding: 2px;
     background-color: rgb(22, 30, 145);
-    margin: 8px
+    margin: 8px;
+    height: auto;
 }
+
+.div-2{ /* Arrumar isso */
+    padding: 2px;
+    background-color: rgba(69, 101, 228, 0.845);
+    margin: 8px;
+    height: auto;
+    color: rgb(255, 255, 255);
+}
+
+.gif-gato {
+  width: 100px; /* Aumenta a largura fixa para 500px */
+  height: auto; /* Mantém a proporção da altura */
+}
+
 
 /*Seletor de Classe -> classes permitem aplicar estilo a grupos de elementos/*
 /*
