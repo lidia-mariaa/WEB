@@ -1,17 +1,20 @@
 p{ /*seletor*/
-    color:rgb(59, 144, 255) /*color -> propriedade, cor -> valor*/
+    color:rgb(255, 255, 255) /*color -> propriedade, cor -> valor*/
 }
 h1{
-    color:rgb(27, 43, 196)
+    color:rgb(95, 46, 55)
 }
 h2{
-    color:rgb(27, 43, 196)
+    color:rgb(95, 46, 55)
 }
 footer{
     color: rgba(22, 30, 145, 0.493)
 }
 body{
-    background-color: rgb(200, 224, 255);
+    background-color: rgb(255, 158, 173);
+}
+a{
+    color: rgb(255, 255, 255)
 }
 
 /*Fontes*/
@@ -44,32 +47,36 @@ body{
 
 .div-1{
     padding: 2px;
-    background-color: rgb(22, 30, 145);
+    background-color: rgb(95, 46, 55);
     margin: 8px;
     height: auto;
+    border: 10px solid rgb(255, 255, 255);
 }
 
-.div-2{ /* Arrumar isso */
+/*
+.div-2{ -> Arrumar isso
     padding: 2px;
     background-color: rgba(69, 101, 228, 0.845);
     margin: 8px;
     height: auto;
     color: rgb(255, 255, 255);
 }
+*/
 
 .gif-gato {
-  width: 100px; /* Aumenta a largura fixa para 500px */
+  width: 170px;
+  height: auto; /* Mantém a proporção da altura */
+}
+
+.gif-guaxinim {
+  width: 170px;
   height: auto; /* Mantém a proporção da altura */
 }
 
 
-/*Seletor de Classe -> classes permitem aplicar estilo a grupos de elementos/*
-/*
-#HTML
-<p class="destaque">texto</p>
-
-#CSS
-.destaque{
-    color:read;
-    }
-*/
+.lista{
+    list-style-type: circle;
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
